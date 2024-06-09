@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "C:\\Users\\supri\\.gradle\\daemon\\8.6\\com.supriya.quizapp-mergeDebugResources-50:\\layout\\fragment_result.xml",
+        "source": "C:\\Users\\supri\\.gradle\\daemon\\8.6\\com.supriya.quizapp-main-53:\\layout\\fragment_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\supri\\.gradle\\daemon\\8.6\\com.supriya.quizapp-mergeDebugResources-50:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\supri\\.gradle\\daemon\\8.6\\com.supriya.quizapp-main-53:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\supri\\.gradle\\daemon\\8.6\\com.supriya.quizapp-mergeDebugResources-50:\\layout\\fragment_list.xml",
+        "source": "C:\\Users\\supri\\.gradle\\daemon\\8.6\\com.supriya.quizapp-main-53:\\layout\\fragment_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\supri\\.gradle\\daemon\\8.6\\com.supriya.quizapp-mergeDebugResources-50:\\layout\\fragment_splash.xml",
+        "source": "C:\\Users\\supri\\.gradle\\daemon\\8.6\\com.supriya.quizapp-main-53:\\layout\\fragment_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\supri\\.gradle\\daemon\\8.6\\com.supriya.quizapp-mergeDebugResources-50:\\layout\\each_quiz.xml",
+        "source": "C:\\Users\\supri\\.gradle\\daemon\\8.6\\com.supriya.quizapp-main-53:\\layout\\each_quiz.xml"
+    },
+    {
+        "merged": "C:\\Users\\supri\\.gradle\\daemon\\8.6\\com.supriya.quizapp-mergeDebugResources-50:\\layout\\fragment_sign_in.xml",
+        "source": "C:\\Users\\supri\\.gradle\\daemon\\8.6\\com.supriya.quizapp-main-53:\\layout\\fragment_sign_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\supri\\.gradle\\daemon\\8.6\\com.supriya.quizapp-mergeDebugResources-50:\\layout\\dialog_my_progress.xml",
+        "source": "C:\\Users\\supri\\.gradle\\daemon\\8.6\\com.supriya.quizapp-main-53:\\layout\\dialog_my_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\supri\\.gradle\\daemon\\8.6\\com.supriya.quizapp-mergeDebugResources-50:\\layout\\time_out_dialog.xml",
+        "source": "C:\\Users\\supri\\.gradle\\daemon\\8.6\\com.supriya.quizapp-main-53:\\layout\\time_out_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\supri\\.gradle\\daemon\\8.6\\com.supriya.quizapp-mergeDebugResources-50:\\layout\\fragment_sign_up.xml",
+        "source": "C:\\Users\\supri\\.gradle\\daemon\\8.6\\com.supriya.quizapp-main-53:\\layout\\fragment_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\supri\\.gradle\\daemon\\8.6\\com.supriya.quizapp-mergeDebugResources-50:\\layout\\fragment_quiz.xml",
+        "source": "C:\\Users\\supri\\.gradle\\daemon\\8.6\\com.supriya.quizapp-main-53:\\layout\\fragment_quiz.xml"
+    },
+    {
+        "merged": "com.supriya.quizapp-mergeDebugResources-50:/layout/fragment_list.xml",
+        "source": "com.supriya.quizapp-main-53:/layout/fragment_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\supri\\.gradle\\daemon\\8.6\\com.supriya.quizapp-mergeDebugResources-50:\\layout\\activity_auth.xml",
+        "source": "C:\\Users\\supri\\.gradle\\daemon\\8.6\\com.supriya.quizapp-main-53:\\layout\\activity_auth.xml"
+    },
+    {
+        "merged": "C:\\Users\\supri\\.gradle\\daemon\\8.6\\com.supriya.quizapp-mergeDebugResources-50:\\layout\\fragment_detail.xml",
+        "source": "C:\\Users\\supri\\.gradle\\daemon\\8.6\\com.supriya.quizapp-main-53:\\layout\\fragment_detail.xml"
+    }
+]

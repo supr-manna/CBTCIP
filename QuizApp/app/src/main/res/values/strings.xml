@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+
+    <string name="main_app_name">Quiz  APP</string>
+    <string name="txt_signIn">Sign In</string>
+    <string name="txt_social_signIn">Sign in with Google</string>
+    <string name="txt_signUp">Sign Up</string>
+    <string name="goto_signIn">Already Register? <font fgcolor='#000000'><u>Go to SignIn</u></font></string>
+    <string name="term_condition">By using our app, you agree our <font fgcolor='#000000'><u>Terms</u></font> and <font fgcolor='#000000'><u>Condition</u></font> and <font fgcolor='#000000'><u>Privacy Policy</u></font></string>
+    <string name="goto_signUP">Don\'t have an account?   <font fgcolor='#000000'><u>Go to SignUp</u></font></string>
+    <string name="txt_start_quiz">Start Quiz</string>
+    <string name="txt_option">Option</string>
+    <string name="txt_next_quiz">Next Quiz</string>
+    <string name="txt_result">Result</string>
+    <string name="txt_correct">Correct Answers:</string>
+    <string name="txt_wrong">Wrong Answers:</string>
+    <string name="txt_answer">Not Answered Questions:</string>
+    <string name="txt_number">NA</string>
+    <string name="goto_restart">Restart</string>
+    <string name="login_success">LogIn Successfully</string>
+</resources>

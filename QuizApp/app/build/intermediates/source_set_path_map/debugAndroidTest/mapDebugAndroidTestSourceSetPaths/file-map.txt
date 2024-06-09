@@ -1,0 +1,6 @@
+com.supriya.quizapp.test.app-annotation-experimental-1.4.0-0 C:\Users\supri\.gradle\caches\transforms-4\a1ee3a5beff727ae5fcca7b13eb80dc4\transformed\annotation-experimental-1.4.0\res
+com.supriya.quizapp.test.app-core-1.5.0-1 C:\Users\supri\.gradle\caches\transforms-4\e93a91bbdc9d9664b402a3d5fe563e62\transformed\core-1.5.0\res
+com.supriya.quizapp.test.app-androidTest-2 C:\Users\supri\AndroidStudioProjects\QuizApp\app\build\generated\res\resValues\androidTest\debug
+com.supriya.quizapp.test.app-mergeDebugAndroidTestResources-3 C:\Users\supri\AndroidStudioProjects\QuizApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.supriya.quizapp.test.app-mergeDebugAndroidTestResources-4 C:\Users\supri\AndroidStudioProjects\QuizApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.supriya.quizapp.test.app-debugAndroidTest-5 C:\Users\supri\AndroidStudioProjects\QuizApp\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

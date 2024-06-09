@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_gradient"
+    tools:context=".ui.main.quizItems.quiz.QuizFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:background="@color/primary_color"
+            android:contentInsetStart="0dp"
+            android:padding="0dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp"
+            app:titleTextColor="@color/white"
+            app:contentInsetStartWithNavigation="0dp"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:title="Title"
+            app:titleCentered="true"
+            app:navigationIcon="@drawable/ic_left_arrow"
+            android:elevation="5dp"
+            app:elevation="5dp"/>
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/quizProgress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="10"
+            app:trackCornerRadius="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivTimer"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:overScrollMode="never"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appbar">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="80dp">
+
+            <ImageView
+                android:id="@+id/ivTimer"
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_timer"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <TextView
+                android:id="@+id/tvTimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="30"
+                android:textColor="@color/white"
+                android:fontFamily="@font/montserrat_medium"
+                android:textSize="20dp"
+                app:layout_constraintStart_toEndOf="@+id/ivTimer"
+                app:layout_constraintTop_toTopOf="@+id/ivTimer"
+                app:layout_constraintBottom_toBottomOf="@+id/ivTimer"/>
+
+            <ImageView
+                android:id="@+id/ivInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_info"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="@+id/ivTimer"
+                app:layout_constraintTop_toTopOf="@+id/ivTimer"/>
+
+            <TextView
+                android:id="@+id/tvInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="0/100"
+                android:textColor="@color/white"
+                android:fontFamily="@font/montserrat_medium"
+                android:textSize="20dp"
+                app:layout_constraintEnd_toStartOf="@+id/ivInfo"
+                app:layout_constraintTop_toTopOf="@+id/ivInfo"
+                app:layout_constraintBottom_toBottomOf="@+id/ivInfo"/>
+
+            <TextView
+                android:id="@+id/tvQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:layout_marginHorizontal="20dp"
+                android:text=""
+                android:maxLength="146"
+                android:padding="10dp"
+                android:gravity="center"
+                android:background="@drawable/bg_question"
+                android:textColor="@color/black"
+                android:fontFamily="@font/montserrat_bold"
+                android:letterSpacing="0.02"
+                android:textSize="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/ivTimer"
+                app:layout_constraintTop_toTopOf="@+id/ivTimer"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnOption1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                style="@style/Style.OptionButton"
+                android:layout_marginTop="40dp"
+                android:text="@string/txt_option"
+                app:cornerRadius="5dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:layout_marginHorizontal="30dp"
+                app:layout_constraintStart_toStartOf="@+id/tvQuestion"
+                app:layout_constraintEnd_toEndOf="@+id/tvQuestion"
+                app:layout_constraintTop_toBottomOf="@+id/tvQuestion"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnOption2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                style="@style/Style.OptionButton"
+                android:layout_marginTop="35dp"
+                android:text="@string/txt_option"
+                app:cornerRadius="5dp"
+                android:fontFamily="@font/montserrat_medium"
+                app:layout_constraintStart_toStartOf="@+id/btnOption1"
+                app:layout_constraintEnd_toEndOf="@+id/btnOption1"
+                app:layout_constraintTop_toBottomOf="@+id/btnOption1"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnOption3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                style="@style/Style.OptionButton"
+                android:layout_marginTop="35dp"
+                android:text="@string/txt_option"
+                app:cornerRadius="5dp"
+                android:fontFamily="@font/montserrat_medium"
+                app:layout_constraintStart_toStartOf="@+id/btnOption2"
+                app:layout_constraintEnd_toEndOf="@+id/btnOption2"
+                app:layout_constraintTop_toBottomOf="@id/btnOption2"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnOption4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                style="@style/Style.OptionButton"
+                android:layout_marginTop="35dp"
+                android:text="@string/txt_option"
+                app:cornerRadius="5dp"
+                android:fontFamily="@font/montserrat_medium"
+                app:layout_constraintStart_toStartOf="@+id/btnOption3"
+                app:layout_constraintEnd_toEndOf="@+id/btnOption3"
+                app:layout_constraintTop_toBottomOf="@id/btnOption3"/>
+
+            <TextView
+                android:id="@+id/tvCorrectAns"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="20dp"
+                tools:text="Correct Ans"
+                android:maxLength="146"
+                android:padding="10dp"
+                android:gravity="center"
+                android:background="@drawable/bg_question"
+                android:backgroundTint="@color/green"
+                android:textColor="@color/black"
+                android:fontFamily="@font/montserrat_bold"
+                android:letterSpacing="0.02"
+                android:visibility="gone"
+                android:textSize="20dp"
+                app:layout_constraintTop_toBottomOf="@+id/btnOption4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnNextQuiz"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                style="@style/Style.NextButton"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="30dp"
+                android:text="@string/txt_next_quiz"
+                android:fontFamily="@font/montserrat_medium"
+                app:layout_constraintTop_toBottomOf="@+id/tvCorrectAns"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

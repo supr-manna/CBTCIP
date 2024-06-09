@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.supriya.quizapp.ui.splash.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splashFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.supriya.quizapp.ui.auth.registration.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUpFragment_to_listFragment"
+            app:destination="@id/listFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.supriya.quizapp.ui.auth.logIn.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in">
+        <action
+            android:id="@+id/action_signInFragment_to_listFragment"
+            app:destination="@id/listFragment"/>
+        <action
+            android:id="@+id/action_signInFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.supriya.quizapp.ui.main.quizItems.ListFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_list">
+        <action
+            android:id="@+id/action_listFragment_to_detailFragment"
+            app:destination="@id/detailFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.supriya.quizapp.ui.main.details.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail">
+        <action
+            android:id="@+id/action_detailFragment_to_quizFragment"
+            app:destination="@id/fragmentQuiz"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentQuiz"
+        android:name="com.supriya.quizapp.ui.main.quizItems.quiz.QuizFragment"
+        tools:layout="@layout/fragment_quiz"
+        android:label="Quiz">
+
+        <action
+            android:id="@+id/action_fragmentQuiz_to_detailFragment"
+            app:destination="@+id/detailFragment"/>
+
+        <action
+            android:id="@+id/action_fragmentQuiz_to_fragmentResult"
+            app:destination="@+id/fragmentResult"
+            app:popUpTo="@id/listFragment"
+            app:popUpToInclusive="false"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentResult"
+        android:name="com.supriya.quizapp.ui.main.quizItems.result.ResultFragment"
+        tools:layout="@layout/fragment_result"
+        android:label="Result">
+
+        <action
+            android:id="@+id/action_result_signIn"
+            app:destination="@+id/signInFragment"/>
+    </fragment>
+</navigation>

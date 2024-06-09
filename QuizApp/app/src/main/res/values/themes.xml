@@ -1,0 +1,87 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.QuizApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.QuizApp" parent="Base.Theme.QuizApp" />
+
+    <style name="RoundedCornersDialog" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="dialogCornerRadius">10dp</item>
+    </style>
+
+    <style name="Style.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:shadowColor">#0D000000</item>
+        <item name="android:shadowDx">9</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">12</item>
+        <item name="boxCornerRadiusBottomEnd">5dp</item>
+        <item name="boxCornerRadiusBottomStart">2dp</item>
+        <item name="boxCornerRadiusTopStart">3dp</item>
+        <item name="boxCornerRadiusTopEnd">2dp</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeColor">@color/black</item>
+        <item name="boxStrokeWidthFocused">1dp</item>
+        <item name="hintEnabled">false</item>
+    </style>
+
+    <style name="Style.InputEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:drawablePadding">12sp</item>
+        <item name="android:paddingTop">18sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/grey_light</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:textSize">16sp</item>
+        <item name="maxLines">1</item>
+    </style>
+
+    <style name="Style.SignInButton" parent="Widget.Material3.Button">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="backgroundColor">@color/white</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="paddingStart">0dp</item>
+        <item name="paddingEnd">0dp</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">@color/primary_color</item>
+    </style>
+
+    <style name="Style.OptionButton" parent="Widget.Material3.Button">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="backgroundColor">@color/white</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="paddingStart">0dp</item>
+        <item name="paddingEnd">0dp</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Style.NextButton" parent="Widget.Material3.Button">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="backgroundColor">@color/purple_light</item>
+        <item name="backgroundTint">@color/purple_light</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">@color/black</item>
+
+
+    </style>
+
+</resources>

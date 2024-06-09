@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_gradient"
+    tools:context=".ui.main.details.DetailFragment">
+
+    <ImageView
+        android:id="@+id/ivDetailImage"
+        android:layout_width="0dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/ic_study"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvDetailTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="42dp"
+        android:text="Quiz Title"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivDetailImage"/>
+
+    <TextView
+        android:id="@+id/tvDifficulty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:layout_marginStart="40dp"
+        android:text="Difficulty"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montserrat_medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDetailTitle"/>
+
+    <TextView
+        android:id="@+id/tvTotalQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="40dp"
+        android:text="Total Questions"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montserrat_medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDifficulty"/>
+
+    <TextView
+        android:id="@+id/tvQuizLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High"
+        android:textSize="18sp"
+        android:layout_marginEnd="40dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montserrat_semi_bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tvDifficulty"
+        app:layout_constraintTop_toTopOf="@+id/tvDifficulty"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvQuestionCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:text="10"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montserrat_regular"
+        app:layout_constraintTop_toTopOf="@+id/tvTotalQuestion"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTotalQuestion"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnStartQuiz"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        style="@style/Style.SignInButton"
+        android:layout_marginTop="120dp"
+        android:text="@string/txt_start_quiz"
+        android:fontFamily="@font/montserrat_medium"
+        app:layout_constraintStart_toStartOf="@+id/tvTotalQuestion"
+        app:layout_constraintEnd_toEndOf="@+id/tvQuestionCount"
+        app:layout_constraintTop_toBottomOf="@+id/tvQuestionCount"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

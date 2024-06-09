@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_gradient"
+    tools:context=".ui.auth.registration.SignUpFragment">
+
+    <TextView
+        android:id="@+id/tvFirstTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Quiz App"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montserrat_semi_bold"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/ivFirstImage"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:src="@drawable/ic_study"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="@id/tvFirstTitle"
+        app:layout_constraintTop_toTopOf="@id/tvFirstTitle"
+        app:layout_constraintEnd_toEndOf="@id/tvFirstTitle"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tillName"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="25dp"
+        style="@style/Style.TextInputLayout"
+        app:endIconMode="clear_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivFirstImage"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/Style.InputEditText"
+            android:text=""
+            android:hint="Please enter your full name"
+            android:inputType="text"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tillEmail"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        style="@style/Style.TextInputLayout"
+        app:endIconMode="clear_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tillName"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/Style.InputEditText"
+            android:text=""
+            android:hint="Please enter your email"
+            android:inputType="textEmailAddress"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tillPassword"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        style="@style/Style.TextInputLayout"
+        app:endIconMode="password_toggle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tillEmail"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/Style.InputEditText"
+            android:text=""
+            android:hint="Please enter password"
+            android:inputType="textPassword"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSignUp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        style="@style/Style.SignInButton"
+        android:fontFamily="@font/montserrat_medium"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="25dp"
+        android:text="@string/txt_signUp"
+        app:layout_constraintStart_toStartOf="@+id/tillPassword"
+        app:layout_constraintEnd_toEndOf="@+id/tillPassword"
+        app:layout_constraintTop_toBottomOf="@id/tillPassword"/>
+
+    <TextView
+        android:id="@+id/tvGotoSIgnIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/goto_signIn"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montserrat_medium"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="@+id/btnSignUp"
+        app:layout_constraintTop_toBottomOf="@+id/btnSignUp"
+        app:layout_constraintEnd_toEndOf="@+id/btnSignUp"/>
+
+    <TextView
+        android:id="@+id/tvTerms"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="30dp"
+        android:text="@string/term_condition"
+        android:textSize="15dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:lineSpacingExtra="2dp"
+        android:translationY="-3dp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvGotoSIgnIn"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

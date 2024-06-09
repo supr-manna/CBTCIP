@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">392910879021-4gnvun1dghubhjkoclpcda90jv6o03h8.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">392910879021</string>
+    <string name="google_api_key" translatable="false">AIzaSyDoPr2Ympsl9cd2-LUzFodnbb9ZNcmcooE</string>
+    <string name="google_app_id" translatable="false">1:392910879021:android:1c928a9e47f5896291bba4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDoPr2Ympsl9cd2-LUzFodnbb9ZNcmcooE</string>
+    <string name="google_storage_bucket" translatable="false">quizapp-391e4.appspot.com</string>
+    <string name="project_id" translatable="false">quizapp-391e4</string>
+</resources>
