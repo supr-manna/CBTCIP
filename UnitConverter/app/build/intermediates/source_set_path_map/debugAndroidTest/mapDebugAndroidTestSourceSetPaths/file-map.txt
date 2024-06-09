@@ -1,0 +1,6 @@
+com.supriya.unitconverter.test.app-core-1.5.0-0 C:\Users\supri\.gradle\caches\transforms-4\96452aae5622d76a5454894e623c8943\transformed\core-1.5.0\res
+com.supriya.unitconverter.test.app-annotation-experimental-1.3.0-1 C:\Users\supri\.gradle\caches\transforms-4\eea20bc0d65ae0741349dbd407e5c0e4\transformed\annotation-experimental-1.3.0\res
+com.supriya.unitconverter.test.app-androidTest-2 C:\Users\supri\AndroidStudioProjects\UnitConverter\app\build\generated\res\resValues\androidTest\debug
+com.supriya.unitconverter.test.app-mergeDebugAndroidTestResources-3 C:\Users\supri\AndroidStudioProjects\UnitConverter\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.supriya.unitconverter.test.app-mergeDebugAndroidTestResources-4 C:\Users\supri\AndroidStudioProjects\UnitConverter\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.supriya.unitconverter.test.app-debugAndroidTest-5 C:\Users\supri\AndroidStudioProjects\UnitConverter\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

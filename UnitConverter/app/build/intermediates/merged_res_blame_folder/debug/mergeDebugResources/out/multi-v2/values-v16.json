@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.supriya.unitconverter.app-mergeDebugResources-30:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\supri\\.gradle\\caches\\transforms-4\\70d079400ec28bb5a8b68ab342680ff6\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\supri\\.gradle\\caches\\transforms-4\\57e7d4e52a21f2ec5b7baefb21a949db\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}

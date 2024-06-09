@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.supriya.unitconverter.app-mergeDebugResources-31:/layout/unit_item.xml",
+        "source": "com.supriya.unitconverter.app-main-34:/layout/unit_item.xml"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-mergeDebugResources-31:/layout/activity_splash.xml",
+        "source": "com.supriya.unitconverter.app-main-34:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-mergeDebugResources-31:/layout/activity_main.xml",
+        "source": "com.supriya.unitconverter.app-main-34:/layout/activity_main.xml"
+    }
+]

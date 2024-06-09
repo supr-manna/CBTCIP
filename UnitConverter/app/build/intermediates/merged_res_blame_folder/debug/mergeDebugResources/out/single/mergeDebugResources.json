@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/drawable_ic_dropdown.xml.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/drawable/ic_dropdown.xml"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/drawable_background2.xml.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/drawable/background2.xml"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/raw_splash_logo.json.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/raw/splash_logo.json"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/layout_activity_main.xml.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/layout_activity_splash.xml.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/layout_unit_item.xml.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/layout/unit_item.xml"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/xml_data_extraction_rules.xml.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/drawable_spinner_rect.xml.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/drawable/spinner_rect.xml"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/xml_backup_rules.xml.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/drawable_strok_black.xml.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/drawable/strok_black.xml"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/drawable_bg.png.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/drawable/bg.png"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/drawable_background.xml.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/drawable/background.xml"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.supriya.unitconverter.app-debug-32:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.supriya.unitconverter.app-main-34:/mipmap-hdpi/ic_launcher_foreground.webp"
+    }
+]

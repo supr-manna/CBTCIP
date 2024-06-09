@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#241EE3CF">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="#D9009688"
+        android:contentInsetStart="0dp"
+        android:layout_marginTop="23dp"
+        android:padding="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        app:titleTextColor="@color/white"
+        app:contentInsetStartWithNavigation="0dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="Unit Converter"
+        app:titleCentered="true"
+        android:elevation="12dp"
+        app:elevation="12dp"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tillValue"
+            android:layout_width="0dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginEnd="5dp"
+            style="@style/Style.TextInputLayout"
+            app:endIconMode="clear_text"
+            app:hintEnabled="true"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/background"
+            app:layout_constraintEnd_toStartOf="@+id/dropdownUnit"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <EditText
+                android:id="@+id/etValue"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="numberDecimal"
+                android:maxLength="10"
+                android:gravity="center"
+                android:hint="Enter value"
+                style="@style/Style.InputEditText"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Spinner
+            android:id="@+id/dropdownUnit"
+            android:layout_width="0dp"
+            android:layout_height="62dp"
+            android:paddingEnd="13dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/spinner_rect"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tillValue"
+            app:layout_constraintBottom_toBottomOf="@+id/tillValue"
+            app:layout_constraintTop_toTopOf="@+id/tillValue"/>
+
+        <ImageView
+            android:id="@+id/ivArrowUnit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_dropdown"
+            app:layout_constraintEnd_toEndOf="@+id/dropdownUnit"
+            app:layout_constraintTop_toTopOf="@+id/dropdownUnit"
+            app:layout_constraintBottom_toBottomOf="@+id/dropdownUnit"/>
+
+        <TextView
+            android:id="@+id/tvConvertValue"
+            android:layout_width="0dp"
+            android:layout_height="62dp"
+            tools:text="unit value"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:background="@drawable/strok_black"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="@+id/tillValue"
+            app:layout_constraintStart_toStartOf="@+id/tillValue"
+            app:layout_constraintTop_toBottomOf="@+id/tillValue" />
+
+        <Spinner
+            android:id="@+id/dropdownValue"
+            android:layout_width="0dp"
+            android:layout_height="62dp"
+            android:paddingStart="13dp"
+            android:paddingEnd="13dp"
+            android:layout_marginEnd="10dp"
+            tools:text="CM"
+            android:gravity="center"
+            android:background="@drawable/spinner_rect"
+            android:layout_marginStart="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvConvertValue"
+            app:layout_constraintBottom_toBottomOf="@+id/tvConvertValue"
+            app:layout_constraintTop_toTopOf="@+id/tvConvertValue"/>
+
+        <ImageView
+            android:id="@+id/ivArrowValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_dropdown"
+            app:layout_constraintEnd_toEndOf="@+id/dropdownValue"
+            app:layout_constraintTop_toTopOf="@+id/dropdownValue"
+            app:layout_constraintBottom_toBottomOf="@+id/dropdownValue"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

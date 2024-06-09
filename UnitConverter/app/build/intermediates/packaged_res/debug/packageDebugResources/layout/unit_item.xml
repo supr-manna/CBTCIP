@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/tvConvertValue"
+        android:layout_width="0dp"
+        android:layout_height="62dp"
+        tools:text="unit value"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:background="@drawable/strok_black"
+        android:layout_marginTop="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/dropdownValue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <AutoCompleteTextView
+        android:id="@+id/dropdownValue"
+        android:layout_width="0dp"
+        android:layout_height="62dp"
+        android:paddingStart="13dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:paddingEnd="13dp"
+        tools:text="CM"
+        android:gravity="center"
+        android:layout_marginStart="5dp"
+        android:drawableEnd="@drawable/ic_dropdown"
+        android:background="@drawable/strok_black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvConvertValue"
+        app:layout_constraintBottom_toBottomOf="@+id/tvConvertValue"
+        app:layout_constraintTop_toTopOf="@+id/tvConvertValue"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
